@@ -205,7 +205,7 @@ fig.show()
 
 ## CONCLUSION :
 
-1.This survey was usually done on the 7th.
+1.This survey was usually done on the Date-7th .
 
 2.This survey was started at the 8th month and continued at the 9th and 10th months.
 
@@ -244,4 +244,4 @@ fig.show()
 19.While the average age of the 1st and 2nd year students is close to each other, the average age increases as the grade level increases.
 
 ## RESULT :
-Thus, Data analysis is performed on the given dataset and save the data to a file.
+Thus, Exploratory Data analysis is performed on the given dataset and save the data to a file.
