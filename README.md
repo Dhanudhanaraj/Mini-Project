@@ -26,8 +26,8 @@ DHANUMALYA D-212222230030
 KOWSALYA M-212222230069
 SUJITHRA B K N-212222230153
 
-# CODE:
-# IMPORTING LIBRARIES
+CODE:
+IMPORTING LIBRARIES
 import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 import seaborn as sns 
@@ -40,13 +40,13 @@ plt.style.context('grayscale')
 %matplotlib inline
 from wordcloud import WordCloud, STOPWORDS
 
-# LOADING DATASET
+LOADING DATASET
 df=pd.read_csv("/content/Student Mental health.csv")
 df
 
 df.head()
 
-# EXPLORATORY SOME INFORMATION ABOUT DATASET
+EXPLORATORY SOME INFORMATION ABOUT DATASET
 df.isnull().sum()
 
 df.Age.mean()
@@ -81,7 +81,7 @@ df['hour'] = (df['Date']).dt.hour
 
 df.head()
 
-# DATA VISUALIZATION
+DATA VISUALIZATION
 df.year.value_counts()
 
 df.day.value_counts()
@@ -204,24 +204,43 @@ fig.show()
 ![m30](https://github.com/Dhanudhanaraj/Mini-Project/assets/119218812/10c86e7d-bdb0-4eca-9890-b845ecc9f3a0)
 
 ## CONCLUSION :
+
 1.This survey was usually done on the 7th.
+
 2.This survey was started at the 8th month and continued at the 9th and 10th months.
+
 3.This survey was usually done at noon.
+
 4.The survey was mostly answered by women.
+
 5.Respondents are usually 18-year-olds, presumably in their first year at university.
+
 6.Participants usually consist of people from the 4-year department.
+
 7.Respondents to the questionnaire generally consist of first-year students.
+
 8.The average of respondents to the survey is between 3.5 and 4.
+
 9.Marital status is generally single.
+
 10.They are not usually depressed.
+
 11.They usually do not have anxiety problems.
+
 12.They usually do not experience panic attacks.
+
 13.They often do not receive expert support.
+
 14.Some of those who are depressed receive professional support.
+
 15.Some of those experiencing anxiety receive professional support. When this percentage is multiplied, it is higher than for those who show symptoms of depression.
+
 16.Some of those experiencing panic attacks receive professional support. This rate is higher than others.
+
 17.The average age of men is higher than that of women. However, the number of women in this dataset was high. Then we can say that the age of the men who answered this questionnaire is more than the age of the women. For example, if the age of women responding is around 18, the average age of men varies between 18-24.
+
 18.Since the age of marriage is 18 and over in the law, the average age of married people is 21.
+
 19.While the average age of the 1st and 2nd year students is close to each other, the average age increases as the grade level increases.
 
 ## RESULT :
